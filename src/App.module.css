@@ -1,0 +1,36 @@
+.header {
+  width: 700px;
+  margin: 20px auto;
+}
+
+.header>div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.header>div * + * {
+  margin-left: 20px;
+}
+
+.app {
+  margin: 20px auto;
+}
+
+.board {
+  display: grid;
+  width: fit-content;
+  margin: 20px auto 0 auto;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid #595959;
+}
+.activeCell {
+  background-color: dodgerblue;
+}
+.cell:active {
+  background-color: RoyalBlue;
+}

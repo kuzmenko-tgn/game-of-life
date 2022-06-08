@@ -1,0 +1,15 @@
+.button {
+    height: 40px;
+    width: 100px;
+    background: dodgerblue;
+    color: white;
+    fill: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.button:hover {
+    background-color: RoyalBlue;
+}
